@@ -87,7 +87,3 @@ def slide_show(md):
     sys.stdout.write('END!')
     sys.stdout.flush()
     transition()
-
-
-def main():
-    slide_show(sys.argv[1])
